@@ -1,5 +1,5 @@
 _schema-version: '3.1'
-ID: chapgpt
+ID: LLM
 version: 1.0.0
 description: "GPT."
 parameters:
@@ -10,5 +10,5 @@ build-parameters:
       commands:
         - python app.py
 modules:
-  - name: chapgpt-srv
+  - name: LLM-srv
     type: python
