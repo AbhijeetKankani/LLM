@@ -14,7 +14,7 @@ os.environ["OPENAI_API_KEY"] = constants.APIKEY
 query = sys.argv[1]
 
 # loader = TextLoader('data.txt')
-loader = DirectoryLoader("data/")
+loader = DirectoryLoader("Data/")
 # loader = DirectoryLoader("data/", glob="*.txt")
 # loader = DirectoryLoader("data/", glob="*.txt|*.pdf")
 
